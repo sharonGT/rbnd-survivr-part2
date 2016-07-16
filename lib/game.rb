@@ -25,6 +25,9 @@ attr_reader :tribes
 	end
 
 	def individual_immunity_challenge
-		immunity_challenge.members.sample
+		#immunity_challenge.members.sample
+		#per suggestion
+		@tribes.first.members.sample
+
 	end
 end
